@@ -1,0 +1,7 @@
+numero_inteiro = int(input("Digite um número inteiro: "))
+numero_antecessesor = numero_inteiro - 1
+numero_sucessor = numero_inteiro + 1
+print(f"O antecessesor desse número é: {numero_antecessesor}")
+print(f"O sucessor desse número é: {numero_sucessor}")
+
+print(f"Analisando o número, podemos dizer que o seu antecessesor é {numero_inteiro - 1}, enquanto que seu sucessor é {numero_inteiro + 1}")
